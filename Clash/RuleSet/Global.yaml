@@ -75,6 +75,9 @@ payload:
   # > Akamai
   - DOMAIN,a248.e.akamai.net
   - DOMAIN,a771.dscq.akamai.net
+  # > Clubhouse
+  - DOMAIN-SUFFIX,clubhouseapi.com
+  - DOMAIN-SUFFIX,joinclubhouse.com
   # > Others
   - DOMAIN-SUFFIX,4shared.com
   - DOMAIN-SUFFIX,9cache.com
@@ -446,7 +449,6 @@ payload:
 
   # (IP Blackhole)
   # > Google
-  - DOMAIN-SUFFIX,google
   - DOMAIN-SUFFIX,abc.xyz
   - DOMAIN-SUFFIX,advertisercommunity.com
   - DOMAIN-SUFFIX,ampproject.org
@@ -544,3 +546,4 @@ payload:
   - DOMAIN-SUFFIX,zaobao.com.sg
   - DOMAIN,international-gfe.download.nvidia.com
   - DOMAIN,ocsp.apple.com
+  - DOMAIN,store-images.s-microsoft.com
