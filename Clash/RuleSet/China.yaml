@@ -44,8 +44,8 @@ payload:
   - DOMAIN-SUFFIX,bdstatic.com
   - DOMAIN-SUFFIX,yunjiasu-cdn.net
   # > Battle
-  - DOMAIN-SUFFIX,battle.net,DIRECT
-  - DOMAIN-SUFFIX,blizzard.com,DIRECT
+  - DOMAIN-SUFFIX,battle.net
+  - DOMAIN-SUFFIX,blizzard.com
   # > bilibili
   - DOMAIN-SUFFIX,acgvideo.com
   - DOMAIN-SUFFIX,biliapi.com
@@ -122,9 +122,10 @@ payload:
   - DOMAIN,outlook.office365.com
   - DOMAIN,smtp.office365.com
   # >> Windows Server Update Services
-  - DOMAIN-SUFFIX,windowsupdate.microsoft.com
+  - DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
   - DOMAIN-SUFFIX,update.microsoft.com
   - DOMAIN-SUFFIX,windowsupdate.com
+  - DOMAIN-SUFFIX,windowsupdate.microsoft.com
   - DOMAIN,download.microsoft.com
   - DOMAIN,wustat.windows.com
   - DOMAIN,ntservicepack.microsoft.com
@@ -139,6 +140,7 @@ payload:
   - DOMAIN-SUFFIX,lofter.com
   - DOMAIN-SUFFIX,netease.com
   - DOMAIN-SUFFIX,ydstatic.com
+  - DOMAIN-SUFFIX,youdao.com
   # > PayPal
   # USER-AGENT,PayPal*
   - DOMAIN-SUFFIX,paypal.com
@@ -162,7 +164,7 @@ payload:
   - DOMAIN-SUFFIX,steampowered.com
   - DOMAIN-SUFFIX,steamstatic.com
   # > Tencent
-  # USER-AGENT,MicroMessenger%20Client
+  # USER-AGENT,MicroMessenger*
   # USER-AGENT,WeChat*
   # USER-AGENT,%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1*
   - DOMAIN-SUFFIX,gtimg.com
@@ -200,6 +202,7 @@ payload:
   - DOMAIN,ip.istatmenus.app
   - DOMAIN,sms.imagetasks.com
   # > Speed Test
+  # - DOMAIN-SUFFIX,speedtest.net
   - DOMAIN-SUFFIX,netspeedtestmaster.com
   - DOMAIN,speedtest.macpaw.com
   # > Private Tracker
@@ -287,6 +290,7 @@ payload:
   - DOMAIN-SUFFIX,getpricetag.com
   - DOMAIN-SUFFIX,gifshow.com
   - DOMAIN-SUFFIX,godic.net
+  - DOMAIN-SUFFIX,heweather.net
   - DOMAIN-SUFFIX,hicloud.com
   - DOMAIN-SUFFIX,hongxiu.com
   - DOMAIN-SUFFIX,hostbuf.com
@@ -320,8 +324,8 @@ payload:
   - DOMAIN-SUFFIX,nvidia.com
   - DOMAIN-SUFFIX,oracle.com
   - DOMAIN-SUFFIX,plex.tv
-  - DOMAIN-SUFFIX,qdaily.com
   - DOMAIN-SUFFIX,qidian.com
+  - DOMAIN-SUFFIX,qweather.com
   - DOMAIN-SUFFIX,qyer.com
   - DOMAIN-SUFFIX,qyerstatic.com
   - DOMAIN-SUFFIX,raychase.net
