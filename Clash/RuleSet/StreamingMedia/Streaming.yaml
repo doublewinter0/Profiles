@@ -85,6 +85,7 @@ payload:
   # > Apple TV
   - DOMAIN,linear.tv.apple.com
   - DOMAIN,play-edge.itunes.apple.com
+  - DOMAIN,uts-api.itunes.apple.com
   # > Bahamut
   - PROCESS-NAME,tw.com.gamer.android.animad
   - DOMAIN-SUFFIX,bahamut.com.tw
@@ -200,6 +201,7 @@ payload:
   - IP-CIDR,203.74.95.153/32,no-resolve
   - IP-CIDR,203.211.4.169/32,no-resolve
   - IP-CIDR,203.211.4.193/32,no-resolve
+  - IP-CIDR,210.71.227.200/32,no-resolve
   - IP-CIDR,210.71.227.202/32,no-resolve
   - IP-CIDR,210.201.32.8/32,no-resolve
   - IP-CIDR,210.201.32.11/32,no-resolve
