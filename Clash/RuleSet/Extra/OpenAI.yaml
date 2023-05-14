@@ -16,3 +16,4 @@ payload:
 
   # OpenAi Proxy
   - DOMAIN-SUFFIX,fakeopen.com
+  - DOMAIN-SUFFIX,churchless.tech
