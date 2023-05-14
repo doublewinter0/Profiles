@@ -6,8 +6,13 @@ payload:
   - DOMAIN-SUFFIX,challenges.cloudflare.com
   - DOMAIN-SUFFIX,auth0.openai.com
   - DOMAIN-SUFFIX,platform.openai.com
-  - # Add ai.com
+
+  # Add ai.com
   - DOMAIN-SUFFIX,ai.com
-  - # Add stripe.com
+
+  # Add stripe.com
   - DOMAIN-SUFFIX,invoice.stripe.com
   - DOMAIN-SUFFIX,stripe.com
+
+  # OpenAi Proxy
+  - DOMAIN-SUFFIX,fakeopen.com
